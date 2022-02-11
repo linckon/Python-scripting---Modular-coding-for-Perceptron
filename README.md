@@ -1,1 +1,1 @@
-# Pytho scripting & Modular coding for Perceptron 
+# Python scripting & Modular coding for Perceptron 
