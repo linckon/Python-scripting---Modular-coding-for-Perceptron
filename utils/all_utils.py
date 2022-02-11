@@ -2,8 +2,10 @@ import os
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
 import numpy as np
+import logging
 
 def prepare_data(df,target_col="y"):
+    logging.info("Preparing the data for training")
     X = df.drop(target_col,axis=1)
     
     y = df[target_col]
